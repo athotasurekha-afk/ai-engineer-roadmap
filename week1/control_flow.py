@@ -30,5 +30,17 @@ match(100):
 #pass
 if True:
      pass
+#for loop
+word=["cat783","56rat","2dogs"]
+for item in word:
+     numbers=""
+     letters=""
+     for char in item:
+          if char.isdigit():
+               numbers+=char
+          else:
+               letters+=char
+
+     print(f"{item} length {len(item)} and the numericals are {numbers} & letters are {letters}")
 
 
