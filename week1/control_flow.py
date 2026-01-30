@@ -43,4 +43,9 @@ for item in word:
 
      print(f"{item} length {len(item)} and the numericals are {numbers} & letters are {letters}")
 
+#############Generator expression##########
+get_non_digit="".join(dig for dig in "abcd3#$45&67" if not dig.isdigit())
+print(get_non_digit)
+print("_".join(digit for digit in "asdasd3223234##" if digit.isdigit()))
+print("".join(['1','e','3']))
 
